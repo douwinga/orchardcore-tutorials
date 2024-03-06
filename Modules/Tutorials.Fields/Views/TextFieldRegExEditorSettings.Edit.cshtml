@@ -1,0 +1,9 @@
+@model Tutorials.Fields.ViewModels.TextFieldRegExEditorSettingsViewModel
+
+<div class="field-editor field-editor-regex">
+    <div class="mb-3 w-sm-50">
+        <label asp-for="Expression">@T["Regular Expression"]</label>
+        <input type="text" asp-for="Expression" class="form-control" />
+        <span class="hint">@T["The regular expression the input text must match."]</span>
+    </div>
+</div>
